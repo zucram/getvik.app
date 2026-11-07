@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E1838"/><stop offset="1" stop-color="#43213F"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A3F78"/><stop offset="1" stop-color="#3B2852"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7BE4A"/><stop offset="1" stop-color="#E8613A"/></linearGradient>
+    <clipPath id="bay"><polygon points="362,250 662,250 512,676"/></clipPath>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <circle cx="512" cy="640" r="150" fill="url(#sun)" clip-path="url(#bay)"/>
+  <polygon points="214,250 362,250 512,676 410,676" fill="#F4EFE8"/>
+  <polygon points="810,250 662,250 512,676 614,676" fill="#C9B9D6"/>
+  <path d="M0 676 H1024 V796 A228 228 0 0 1 796 1024 H228 A228 228 0 0 1 0 796 Z" fill="url(#sea)"/>
+  <rect x="446" y="718" width="132" height="28" rx="14" fill="#E8613A"/>
+  <rect x="478" y="770" width="68" height="22" rx="11" fill="#E8613A" opacity=".55"/>
+</svg>

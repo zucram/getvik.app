@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vik Privacy Policy</title>
+<meta name="description" content="What Vik does with your data: it keeps it on your phone and sends it only to the services you choose.">
+<meta name="theme-color" content="#16112B">
+<link rel="icon" href="assets/vik-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-head page-head">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/vik-icon.svg" alt=""><span>vik<span class="dot">.</span></span></a>
+    <nav aria-label="Main">
+      <a class="hide-sm" href="./#place">How it works</a>
+      <a href="./#plus">Vik Plus</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <h1>Privacy Policy</h1>
+  <p class="lede">Short version: Vik has no servers and no account of its own. What you do in Vik stays on your phone, except what has to go to the services you choose to use.</p>
+
+  <h2>Who we are</h2>
+  <p>Vik is made by Marcus Harlid Davin. Questions about this policy: <strong><a href="mailto:support@getvik.app">support@getvik.app</a></strong>.</p>
+
+  <h2>What Vik collects</h2>
+  <p>Nothing, unless you test a TestFlight build of Vik and turn on nightly diagnostics (below). We don't run servers for Vik, so we have nowhere to keep your data and nothing to collect it into. Vik has no analytics, no advertising and no tracking, and it doesn't share data with data brokers. This website sets no cookies and loads nothing from anyone else. It is hosted on GitHub Pages, which sees your IP address when you visit, as any web host does.</p>
+
+  <h2>What stays on your phone</h2>
+  <ul>
+    <li>Your library: the shows you follow, your episodes, downloads, Up Next and settings.</li>
+    <li>Your listening places and history.</li>
+    <li>Your sign-in sessions for Google and Patreon, and the members feed links Vik finds through Patreon.</li>
+    <li>Maps between different cuts of an episode, which Vik works out on the phone from the audio.</li>
+    <li>A diagnostics log of what the app did, for when something goes wrong.</li>
+  </ul>
+  <p>New-episode notifications are made on your phone too: Vik checks your feeds and posts them itself, with no server in between.</p>
+
+  <h2>What goes where, and why</h2>
+  <p>To work, Vik talks directly to the services below. Each of them sees your phone's IP address, as any app or browser that contacts them does, and handles it under its own privacy policy.</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Service</th><th>When</th><th>What it receives</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Podcast hosts and public radio</strong></td><td>When Vik refreshes a feed you follow, streams or downloads an episode</td><td>A request for that feed or file. Private feed links identify you to the host that issued them, as they do in any podcast app.</td></tr>
+      <tr><td><strong>Apple's podcast directory</strong></td><td>When you search, or Vik looks up a show you pasted or imported</td><td>Your search words (or the show's name) and your App Store country</td></tr>
+      <tr><td><strong>Spotify</strong></td><td>When you paste a Spotify link to a show or episode</td><td>A request for that link's public page on open.spotify.com, without signing in, so Vik can read the show's name. Nothing else about you or your library.</td></tr>
+      <tr><td><strong>YouTube (Google)</strong></td><td>If you sign in to YouTube Music</td><td>Requests made with your own session to list your podcasts and play episodes, and your place in each YouTube episode, which Vik writes to your account's watch history so other devices can resume there</td></tr>
+      <tr><td><strong>Patreon</strong></td><td>If you sign in to Patreon</td><td>Requests made with your own session to find the members feeds and posts of creators you support</td></tr>
+      <tr><td><strong>iCloud (Apple)</strong></td><td>If you're signed in to iCloud on your iPhone</td><td>Your library and places, in your own private iCloud database. That includes the address of any private feed you added yourself, since the address is how Vik knows the show. We can't read it.</td></tr>
+      <tr><td><strong>iCloud public database (Apple)</strong></td><td>Only in TestFlight builds, once a night, if you turned on nightly diagnostics</td><td>What's new in the diagnostics log and crash reports since the last night, with a random ID for this install. Only we can read it, not other testers. Details below.</td></tr>
+      <tr><td><strong>App Store (Apple)</strong></td><td>If you start a trial or subscribe</td><td>The purchase, handled entirely by Apple. We receive Apple's sales reports, which don't identify you.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Your Google and Patreon passwords are typed into those companies' own sign-in pages. Vik never sees or stores them.</p>
+
+  <h2>Diagnostics you choose to send</h2>
+  <p>Settings › Diagnostics › Share lets you send a report when something goes wrong. Nothing leaves your phone until you share it, and you pick where it goes. Reports leave out sign-in sessions, private feed links and stream addresses. If you email one to us, we use it only to fix the problem and delete it when we're done. Apple may also give us crash reports if you've turned on "Share with App Developers" in your iPhone's settings.</p>
+
+  <h2>Nightly diagnostics while you test</h2>
+  <p>TestFlight builds of Vik ask once whether to send diagnostics each night. It stays off until you say yes, and you can turn it off any time in Settings › Diagnostics. When it's on, once a night while your iPhone charges on Wi-Fi, Vik sends what's new in its diagnostics log and crash reports since the last night. They go through the same filter as a report you share yourself: sign-in sessions, private feed links, stream addresses and email addresses are removed. They carry a random ID made for this install, not your name, email or Apple ID, and we don't link them to you.</p>
+  <p>They're stored in Vik's iCloud public database, which Apple runs for us; other testers can't read them. We copy them to our own computer, use them only to fix problems, delete them from iCloud after 30 days and from our copy after 90 days. App Store versions of Vik never send them.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Sign out of Google or Patreon in Settings › Sources. Vik deletes that session from the phone.</li>
+    <li>Turn off iCloud for Vik, or delete Vik's iCloud data, in your iPhone's Settings › your name › iCloud.</li>
+    <li>Delete the app to delete everything Vik keeps on the phone.</li>
+    <li>Places Vik wrote to YouTube are part of your YouTube history; manage them in your Google account.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Vik isn't directed at children under 13, and the App Store version collects nothing from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If Vik ever starts sending data somewhere new, this page changes first and the app's release notes say so.</p>
+  <p class="note">Effective 7 November 2026.</p>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <p>vik<span class="dot">.</span> A podcast app for iPhone. Built on <a href="https://github.com/connlark/opencast">opencast</a> (MIT).</p>
+      <p>YouTube and YouTube Music are trademarks of Google LLC. Patreon is a trademark of Patreon, Inc. Apple and iPhone are trademarks of Apple Inc. Vik is not affiliated with or endorsed by any of them.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="roadmap.html">Roadmap</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
